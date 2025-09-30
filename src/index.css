@@ -1,0 +1,173 @@
+html {
+    display: grid;
+    justify-content: center;
+    background: #b8cdef;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #EBF1FF;
+  position: relative;
+}
+header {
+  background-color: #EBF1FF;
+  color: #7B99DD;
+  display:flex;
+}
+nav a {
+  color: #7B99DD;
+  text-decoration: none;
+}
+main {
+  color: #EBF1FF;
+  padding-top:150px;
+}
+footer {
+  background-color: #EBF1FF;
+}
+h1{
+  color: #7B99DD;
+  text-align: left;
+  padding-left: 30px;
+  font-size: 96px;
+}
+.title1{
+  text-align: left;
+  margin-right:500px;
+}
+p{
+  display: inline;
+}
+.chat_icon{
+    margin-right: 60px;
+    padding-bottom: 37px;
+}
+.recomendation_icon{
+    margin-right: 60px;
+    padding-bottom: 36.5px;
+}
+.profile_icon{
+    margin-right: 60px;
+    padding-bottom: 36px;
+}
+text{
+    color: #7B99DD;
+}
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    width: 300px; /* Ширина контейнера */
+    height: 200px; /* Высота контейнера */
+}
+
+        /* Стили для изображений */
+.image-container img {
+    object-fit: cover;
+}
+
+        /* Стили для текста поверх изображений */
+.image-text {
+    position: absolute;
+    color: #7B99DD;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 300px;
+}
+
+        /* Позиционирование текста для каждого контейнера */
+#container1 .image-text {
+    top: 10px;
+    left: 20px;
+
+}
+
+#container2 .image-text {
+     top: 10px;
+     left: 20px;
+
+}
+
+#container3 .image-text {
+     top: 10px;
+     left: 20px;
+
+}
+
+#container4 .image-text {
+     top: 10px;
+     left: 20px;
+}
+
+
+        /* Расположение контейнеров на странице */
+#container1 {
+     float: left;
+}
+
+#container2 {
+     float: right;
+     right: 300px;
+     top: 100px;
+}
+
+#container3 {
+     float:left;
+     top: 300px;
+     clear: both;
+}
+
+#container4 {
+     float: right;
+     clear: both;
+     top: 200px;
+     right: 300px;
+
+}
+.button {
+    position: absolute;
+    top: 130%;
+    left: 79%;
+}
+
+.rectangle {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     opacity: 0.7;
+     mix-blend-mode: multiply;
+}
+
+.r1 {
+     background-color: #A9C1F6;
+     transform: scale(1.1);
+}
+
+.plants{
+    margin-bottom: -4px;
+    margin-top: -300px;
+}
+.number{
+     position:absolute;
+     bottom:90px;
+     color: #7B99DD;
+     right: 41%;
+
+
+}
+.photo{
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    width: 200px; /* Ширина контейнера */
+    height: 300px; /* Высота контейнера */
+}
+#p1{
+    float:left;
+    left:30px;
+}
+#he1{
+    padding:
+}
